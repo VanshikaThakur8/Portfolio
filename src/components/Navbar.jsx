@@ -37,10 +37,10 @@ const Navbar = () => {
         ></div>
       )}
 
-      {/* Side Drawer Menu */}
+      {/* Right Side Drawer Menu */}
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-white z-50 transform transition-transform duration-300 ease-in-out ${
-          menuOpen ? 'translate-x-0' : '-translate-x-full'
+          menuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="p-4 flex justify-between items-center border-b">
@@ -62,5 +62,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
