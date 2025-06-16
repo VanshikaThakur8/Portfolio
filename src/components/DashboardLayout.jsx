@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 const DashboardLayout = () => {
   return (
-    <div className="h-full flex flex-col bg-gray-100">
+    <div className="min-h-screen flex flex-col bg-gray-100">
       <Navbar />
       <main className="flex-1 overflow-y-auto p-6">
         <Outlet />

@@ -89,7 +89,6 @@ const Contact = () => {
 
       <div className="mt-8 text-center text-sm text-gray-600">
         <p>Email: <a href="mailto:vanshikathakur930@gmail.com" className="text-orange-500 hover:underline">vanshikathakur930@gmail.com</a></p>
-        <p>Phone: +91 86299-02299</p>
         <p>Location: Shivpuri, Madhya Pradesh</p>
       </div>
     </section>
