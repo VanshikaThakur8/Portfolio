@@ -20,7 +20,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
       <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left content */}
         <div className="md:w-1/2">
-          <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-purple-500 animate-bounce tracking-wide">HELLOoo!!!</p>
+          <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500  to-purple-500 animate-bounce tracking-wide">HELLO!!!</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">
             I'm <span className="text-orange-600">Vanshika Thakur</span><br />a Frontend Developer
           </h1>
