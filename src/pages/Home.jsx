@@ -2,14 +2,14 @@ import React from 'react';
 import profile from '../assets/profile.jpg'; 
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import resumePDF from '../assets/resume.pdf';
+
 
 
 // function Home() {
     const Home = () => {
   const navigate = useNavigate();
-  const goToResume = () => {
-    navigate('/resume');
-  };
+ 
   const goToContact =() => {
     navigate('/contact')
   };
@@ -32,8 +32,10 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
           <div className="flex gap-4 items-center mt-4">
             <button className="px-6 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition cursor-pointer" onClick={goToContact} >Hire Me</button>
            
-            <button className="px-6 py-2 border border-orange-600 text-orange-600 rounded-lg hover:bg-orange-100 transition cursor-pointer" onClick={goToResume} >Resume</button>
-
+<button
+  onClick={() => window.open(resumePDF, '_blank')}
+  className="px-6 py-2 border border-orange-600 text-orange-600 rounded-lg hover:bg-orange-100 transition cursor-pointer"
+>Resume</button>
             <a
     href="https://github.com/VanshikaThakur8"
     target="_blank"
