@@ -2,7 +2,7 @@ import React from 'react';
 import profile from '../assets/profile.jpg'; 
 import { useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import resumePDF from '../assets/resume.pdf';
+import resumePDF from '../assets/Resume.pdf';
 
 
 
