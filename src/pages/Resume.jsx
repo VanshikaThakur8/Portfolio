@@ -63,7 +63,7 @@ const App = () => {
           <h3 className="font-semibold text-lg mb-1">Source Code Website</h3>
           <ul className="list-disc list-inside space-y-1">
             <li>Offers a wide range of source codes and templates for website design</li>
-            <li>Resources for HTML, CSS, JS, and various frameworks</li>
+            <li>Resources for HTML, CSS, JS, React.js and various frameworks</li>
             <li>Responsive templates and search functionality</li>
             <li>Updated with trending elements</li>
           </ul>
@@ -76,7 +76,7 @@ const App = () => {
             <li>Developed a web-based application for managing student fees and payments</li>
             <li>Included modules for invoice generation, due tracking, and receipt printing</li>
             <li>Integrated secure admin login and real-time fee status updates</li>
-            <li>Built using React.js, Node.js, Tailwind CSS, and MongoDB</li>
+            <li>Built using Angular.net, ASP net boiler plate, My Sql, Asual data studio.</li>
           </ul>
         </div>
 
@@ -99,3 +99,4 @@ const App = () => {
 };
 
 export default App;
+ 
